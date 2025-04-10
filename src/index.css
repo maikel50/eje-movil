@@ -50,6 +50,10 @@ body {
   background-color: #10c2d9;
   width: 350px;
   height: 540px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
 }
 
 .footer{
@@ -68,14 +72,24 @@ body {
 }
 
 .screen-up {
-  display: flex;
   justify-content: space-between;
-  align-items: center;
-  box-sizing: border-box;
+  display: flex;
 }
 
-.time {
+.time p{
+  margin-right: 230px;
   align-items:start;
   justify-content: right;
   
+}
+
+.battery {
+  height: 5px;
+}
+
+.widgets {
+  background-color: #fd0606;
+  width: 300px;
+  height: 100px;
+  margin-top: 30px;
 }
