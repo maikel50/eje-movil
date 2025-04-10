@@ -1,4 +1,56 @@
 body {
-  background: #171717;
+  background: #fff;
   color: #fff;
+  justify-content: center;
+  display: flex;
+  
+}
+
+.mobile{
+  background-color: black;
+  width: 400px;
+  height: 650px;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.header{
+  background-color: #df1717;
+  width: 350px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.speaker{
+  background-color:  #000;
+  width: 60px;
+  height: 10px;
+}
+
+.camera{
+  background-color: #000;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.screen{
+  background-color: #10c2d9;
+  width: 350px;
+  height: 540px;
+}
+
+.footer{
+  background-color: #42df17;
+  width: 350px;
+  height: 30px;
 }
